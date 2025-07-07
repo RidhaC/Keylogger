@@ -57,7 +57,3 @@ To reduce the risk of keyloggers:
 - Be cautious when downloading software or using public/shared systems
 
 Using layered security tools with real-time protection, heuristic analysis, and behavioral detection will help you stay safe from keyloggers and other malware.
-
----
-
-**Disclaimer**: This tool should only be used in controlled environments (such as virtual machines or lab setups) for learning and ethical hacking purposes. Unauthorized use on someone else's device or network is illegal.
