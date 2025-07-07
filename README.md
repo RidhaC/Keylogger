@@ -1,39 +1,63 @@
 # Advance Keylogger
 
-This tool is intended **strictly for educational purposes** only.
+> ⚠️ This tool is intended **strictly for educational purposes only** and should only be used in environments where you have explicit permission.
 
-## What is Keylogger ?
+## What is a Keylogger?
 
-_The action of recording (logging) the keys struck on a keyboard, often discreetly, so that the person using the keyboard is unaware that their activities are being observed is known as keystroke logging, also known as keylogging or keyboard capture. The person who is running the logging program can then obtain the data. Keylogger is most often used to steal passwords and other confidential information._
+A keylogger is a tool that records every keystroke made on a keyboard. These logs are often collected without the user's knowledge. Keyloggers are commonly used in cybersecurity training and research but can also be misused for stealing passwords and sensitive information.
 
-_Even Microsoft has openly confirmed that the final version of Windows 10 features a built-in keylogger “to improve typing and writing functions.”_
+Even Microsoft has stated that Windows 10 includes certain telemetry features that can record typing behavior to improve user experience.
 
-## Type of Keyloggers
-*There are two types of keyloggers:*
+## Types of Keyloggers
 
-* ### Software-Based Keyloggers
-  * Features that collect user information without relying solely on keyboard key presses can be added to software keyloggers.
-  * Logging of the clipboard The software can capture anything that has been copied to the clipboard.
-  * Logging on the computer screen. To collect graphics-based information, screenshots are taken.
-  * Capturing text in a control programmatically.
-  * Search engine queries, instant messenger talks, FTP downloads, and other Internet-based activities are all being recorded (including the bandwidth used).
+There are two main categories of keyloggers:
 
-* ### Hardware-Based Keyloggers
-  * Typical Hardware Keylogger is a hardware circuit that is installed anywhere between the computer keyboard and the computer for keystroke logging.
-  * Hardware keyloggers have an advantage over software keyloggers in that they can start logging as soon as the machine is switched on.
-  * Hardware-based keyloggers do not require the installation of any software because they operate at the hardware level of a computer system.
-  * A hardware keylogger’s memory size can range from a few kilobytes to several terabytes, with each keystroke recorded typically consuming a byte
+### 1. Software-Based Keyloggers
 
-## How to detect and remove Keylogger
-_Are there telltale signs that your device is hosting a keylogger? The answer is, it depends. Like most malware, you can use a good antivirus/anti-malware scanner to find and remove keyloggers._
+These are applications that run on a device and monitor keyboard activity. Some advanced software keyloggers can also:
 
-_Keyloggers of poorer quality (such as the malware variety) might reveal themselves in a number of ways. The software might subtly degrade smartphone screenshots to a noticeable degree. On all devices, there could be a slowdown in web browsing performance. Or there’s a distinct lag in your mouse movement or keystrokes, or what you are actually typing doesn’t show up onscreen. You might even get an error message when loading graphics or web pages. All in all, something just seems “off.”_
+- Capture clipboard data
+- Take periodic screenshots
+- Log text from windows or applications
+- Record browser activity, search queries, and instant messages
 
-_The well-designed commercial grade of keylogger usually works flawlessly, so it does not affect system performance at all. If the keylogger is sending reports to a remote operator, it disguises itself as normal files or traffic. Some of the programs will even display a notice on the screen that the system is being monitored—such as in a corporate computing environment. Others can reinstall themselves if users somehow succeed in finding them and attempt to remove them._
+### 2. Hardware-Based Keyloggers
 
-_Of course, the best way to protect yourself and your equipment from falling victim to keyloggers is to scan your system regularly with a quality cybersecurity program. For instance. It uses heuristic analysis, signature recognition, and identification of typical keylogger behavior associated with keystroke and screenshot capturing to first find the malware, and then remove it._
+These are physical devices connected between the keyboard and computer. Features include:
 
-## Safe Side
-_Avoid keyloggers by avoiding the user mistakes that lead to their ability to infect phones and computers. It starts with keeping your operating system, your applications, and web browsers up to date with the latest security patches. Always be skeptical about any attachments you receive, especially unexpected ones even if they seem to come from someone you know. When in doubt, contact the sender to ask. Keep your passwords long and complex, and avoid using the same one for different services._
+- Logging from the moment the system powers on
+- No need for software installation
+- Stealth operation without triggering antivirus alerts
+- Storage that can range from a few KB to several TB
 
-_Real-time, always-on antivirus/anti-malware protection is the gold standard for preventing not only infection from a keylogger, but also from all other associated malware threats. For all platforms and devices, from Windows and Android, Mac and iPhones, to business environments._
+## How to Detect and Remove a Keylogger
+
+Detecting a keylogger depends on its complexity:
+
+- Poorly built keyloggers may slow down your system, cause typing delays, or show visual glitches.
+- High-quality keyloggers are designed to be stealthy and may not affect system performance at all.
+
+To detect and remove them:
+
+- Use reliable antivirus or anti-malware tools
+- Perform regular system scans
+- Monitor suspicious files or unexpected system behavior
+- Look for software that disguises itself as legitimate applications
+
+Some corporate keyloggers display warnings or consent banners, while others may reinstall themselves even after removal attempts.
+
+## How to Stay Protected
+
+To reduce the risk of keyloggers:
+
+- Keep your operating system, browsers, and software updated
+- Use strong, unique passwords for every account
+- Avoid opening unknown or suspicious attachments
+- Enable real-time antivirus and anti-malware protection
+- Be cautious when downloading software or using public/shared systems
+
+Using layered security tools with real-time protection, heuristic analysis, and behavioral detection will help you stay safe from keyloggers and other malware.
+
+---
+
+**Disclaimer**: This tool should only be used in controlled environments (such as virtual machines or lab setups) for learning and ethical hacking purposes. Unauthorized use on someone else's device or network is illegal.
